@@ -1,0 +1,117 @@
+.background{
+    background-color: #d9d9d9;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container{
+    display: flex;
+    background-color: red;
+    margin: 0px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.titulo{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    line-height: 100px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.nome{
+    display: flex;
+    background-color: #F5ABAB;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(233, 69, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.pautas{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;  
+    margin-bottom: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    width: 367px;
+    height: 50px;
+    line-height: 50px;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sobremim{
+    background-color: #fff;
+    width: 715px;
+    padding: 15px;
+    height: 450px;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.rodape {
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+   
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+   
+}
+
+.logo img {
+    width: 135px;
+    height: 135px;
+}
+
+.opiniao {
+    height: auto;
+    padding: 15px;
+    background-color: #f5abab;
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+}
