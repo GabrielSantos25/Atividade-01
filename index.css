@@ -1,117 +1,135 @@
-.background{
+/* Código Responsivo Corrigido com Espaçamento entre Pautas */
+
+/* Estilo geral do body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Estilo do fundo */
+.background {
     background-color: #d9d9d9;
-    max-width: 100%;
-    max-height: 100%;
 }
 
-.container{
-    display: flex;
-    background-color: red;
-    margin: 0px;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.titulo{
-    display: flex;
-    text-align: center;
-    font-size: 40px;
-    line-height: 100px;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+/* Estilo do container principal */
+.container {
+    background-color: red; /* Cor de fundo */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno */
 }
 
-.nome{
-    display: flex;
-    background-color: #F5ABAB;
-    height: 130px;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    margin-bottom: 10px;
-    color: rgb(233, 69, 69);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+/* Estilo do título */
+.titulo {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
 }
 
-.pautas{
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    justify-content: space-between;  
-    margin-bottom: 10px;
+/* Estilo do nome */
+.nome {
+    background-color: #F5ABAB; /* Cor de fundo */
+    text-align: center; /* Alinhamento do texto */
+    padding: 20px; /* Espaçamento interno */
+    font-size: 24px; /* Tamanho da fonte */
+    color: rgb(233, 69, 69); /* Cor do texto */
 }
 
-.item{
-    display: flex;
-    flex-direction: row;
-    background-color: red;
-    width: 367px;
-    height: 50px;
-    line-height: 50px;
-    justify-content: center;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #fff;
+/* Estilo das pautas */
+.pautas {
+    display: flex; /* Display flex para alinhar os itens */
+    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
+    padding: 10px; /* Espaçamento interno */
 }
 
-.textos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
+/* Estilo dos itens das pautas */
+.item {
+    background-color: red; /* Cor de fundo */
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    color: #fff; /* Cor do texto */
+    margin-right: 10px; /* Adiciona espaçamento entre as pautas */
 }
 
-.sobremim{
-    background-color: #fff;
-    width: 715px;
-    padding: 15px;
-    height: 450px;
-    font-size: 20px;
-    text-align: justify;
-    color: rgb(80, 80, 80);
+/* Estilo da seção de textos */
+.textos {
+    display: flex; /* Display flex para alinhar os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
+    padding: 10px; /* Espaçamento interno */
 }
 
+/* Estilo do bloco de texto "sobremim" */
+.sobremim {
+    background-color: #fff; /* Cor de fundo */
+    flex: 1; /* Ocupa o espaço disponível */
+    margin: 10px; /* Espaçamento externo */
+    padding: 15px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: justify; /* Alinhamento do texto */
+    color: rgb(80, 80, 80); /* Cor do texto */
+}
+
+/* Estilo do contêiner de imagens */
 .image-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    align-items: center;
+    display: flex; /* Display flex para alinhar os itens */
+    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    margin-top: 20px; /* Espaçamento externo superior */
 }
 
+/* Estilo das imagens dentro do contêiner */
 .image-container img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin: 15px;
+    width: 100%; /* Largura 100% do contêiner pai */
+    max-width: 200px; /* Largura máxima de 200 pixels */
+    height: auto; /* Altura automática para manter a proporção */
+    object-fit: cover; /* Redimensiona a imagem mantendo as proporções */
+    margin: 15px; /* Espaçamento externo */
 }
 
+/* Estilo do rodapé */
 .rodape {
-    height: 135px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-bottom: 10px;
-   
+    background-color: red; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    display: flex; /* Display flex para alinhar os itens */
+    align-items: center; /* Alinhamento vertical dos itens */
 }
 
-.logo {
-    width: 200px;
-    height: auto;
-   
-}
-
+/* Estilo do logotipo no rodapé */
 .logo img {
-    width: 135px;
-    height: 135px;
+    width: 100px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 20px; /* Espaçamento externo à direita */
 }
 
+/* Estilo da seção de opinião no rodapé */
 .opiniao {
-    height: auto;
-    padding: 15px;
-    background-color: #f5abab;
-    font-size: 20px;
-    text-align: justify;
-    color: rgb(80, 80, 80);
+    flex: 1; /* Ocupa o espaço disponível */
+    text-align: justify; /* Alinhamento do texto */
+}
+
+/* Estilo do parágrafo dentro da seção de opinião */
+.opiniao p {
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: justify; /* Alinhamento do texto */
+}
+
+/* Adicionando regras de mídia para telas menores */
+@media only screen and (max-width: 768px) {
+    /* ... (códigos anteriores) ... */
+
+    .pautas {
+        flex-direction: column; /* Altera a direção do flex para coluna em telas menores */
+    }
+
+    .item {
+        width: 100%; /* Largura 100% em telas menores */
+        margin-right: 0; /* Remove o espaçamento entre as pautas em telas menores */
+        margin-bottom: 10px; /* Adiciona espaçamento inferior entre as pautas em telas menores */
+    }
+
+    /* ... (códigos anteriores) ... */
 }
